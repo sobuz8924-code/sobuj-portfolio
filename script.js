@@ -72,12 +72,12 @@ toggle.addEventListener("click", () => {
     }
 });
 
-const certificates = document.querySelectorAll(".certificate-gallery img");
+const images = document.querySelectorAll(".certificate-gallery img, .project-card img");
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const closeBtn = document.querySelector(".close");
 
-certificates.forEach(img => {
+images.forEach(img => {
     img.addEventListener("click", () => {
         lightbox.style.display = "flex";
         lightboxImg.src = img.src;
