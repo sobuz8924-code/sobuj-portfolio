@@ -1,5 +1,3 @@
-alert("JavaScript Loaded");
-
 const topBtn = document.getElementById("topBtn");
 
 window.onscroll = function () {
